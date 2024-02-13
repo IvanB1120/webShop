@@ -1,0 +1,38 @@
+
+.full-screen-image {
+    position: relative;
+    height: 100vh;
+  }
+  
+  .full-screen-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  .main-button {
+    position: absolute;
+    bottom: 130px; /* Adjust the distance from the bottom as needed */
+    left:20%;
+    transform: translateX(-50%);
+    background-color: #495E57; /* Choose a background color */
+    color: #e1e3e6;
+    padding: 10px 5px;
+    border: none;
+    cursor: pointer;
+    width: 300px;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    --mask: conic-gradient(from -135deg at right,#0000,#000 1deg 89deg,#0000 90deg) 50%/100% 600.00px;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+          letter-spacing: 2px;
+          transition: all .25s;
+          
+  }
+
+  .main-button:hover {
+    letter-spacing:4px;
+    padding: 15px 5px;
+  }

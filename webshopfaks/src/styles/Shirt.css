@@ -1,0 +1,318 @@
+.shirt-container {
+    background-color:#F5F7F8 ;
+    margin: 15px 10%;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.shirt-image {
+    display: block;
+    width: 400px;
+    height: 550px;
+    object-fit: contain;
+}
+
+.shirt-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 5%;
+    width: 250px;
+}
+
+.shirt-headline {
+    color: #495E57;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.shirt-size-text {
+    color: #495E57;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+
+.shirt-text-text {
+    color: #495E57;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+
+.shirt-button {
+    background-color: #495E57;
+    color: #F4CE14;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+.shirt-description {
+    color: #495E57;
+    font-family: 'Lato', sans-serif;
+}
+
+.shirt-material {
+    color: #495E57;
+    font-family: 'Lato', sans-serif;
+}
+
+.shirt-description-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shirt-description-headline {
+    color: #495E57;
+    font-size: 16px;
+    display: flex;
+    align-self: flex-start;
+    font-family: 'Lato', sans-serif;
+}
+
+.select-size {
+    height: 30px;
+    color: #495E57;
+    border: #495E57;
+    width: 100%;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.select-text {
+    height: 30px;
+    color: #495E57;
+    font-size: 16px;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+.select-text::placeholder {
+    color: #495E57;
+    font-family: 'Lato', sans-serif;
+}
+
+.shirt-hero-container {
+    background-color:#F5F7F8 ;
+    margin: 15px 10%;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+.shirt-dropdown {
+    border: none;
+    background-color: #F5F7F8;
+}
+.down-icon {
+    object-fit: contain;
+    height: 20px;
+    cursor: pointer;
+}
+.shirt-line {
+    margin-top: -10px;
+}
+.description-text {
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+.shirt-button1{
+    background-color: #495E57;
+    color: #F4CE14;
+    height: 40px;
+    font-size: 16px;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+.shirt-image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.shirt-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 56px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+  .black-button {
+    background-color: black;
+    width: 20px;
+    height: 20px;
+  }
+
+  .white-button {
+    background-color: white;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .yellow-button {
+    background-color: yellow;
+    width: 20px;
+    height: 20px;
+  }
+
+  .red-button {
+    background-color: red;
+    width: 20px;
+    height: 20px;
+  }
+
+  .blue-button {
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+  }
+
+  .color-buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+  }
+
+@media only screen and (min-width: 1px) and (max-width: 576px){
+    .shirt-headline{
+        font-size: 14px;
+    }
+    .shirt-size-text {
+        font-size: 12px;
+    }
+    .shirt-text-text {
+        font-size: 12px;
+    }
+    .shirt-picture-name {
+        font-size: 12px;
+    }
+    .shirt-button {
+        width: 100%;
+        font-size: 12px;
+        height: 30px;
+    }
+    .shirt-text-container{
+        width: 150px;
+        padding: 10px;
+    }
+    .shirt-image {
+        display: block;
+        width: 150px;
+        height: 300px;
+        object-fit: contain;  
+    }
+    .shirt-description-headline {
+        font-size: 12px;
+    }
+    .select-size{
+        font-size: 12px;
+    }
+    .select-text{
+        font-size: 12px;
+    }
+    .description-text {
+        font-size: 12px;
+    }
+}
+
+
+@media only screen and (min-width: 576px) and (max-width: 768px){
+    .shirt-headline{
+        font-size: 18px;
+    }
+    .shirt-size-text {
+        font-size: 14px;
+    }
+    .shirt-text-text {
+        font-size: 14px;
+    }
+    .shirt-picture-name {
+        font-size: 14px;
+    }
+    .shirt-button {
+        width: 100%;
+        font-size: 14px;
+        height: 30px;
+    }
+    .shirt-text-container{
+        width: 150px;
+    }
+    .shirt-image {
+        display: block;
+    width: 200px;
+    height: 350px;
+    object-fit: contain;  
+    }
+    .shirt-description-headline {
+        font-size: 14px;
+    }
+    .select-size{
+        font-size: 14px;
+    }
+    .select-text{
+        font-size: 14px;
+    }
+    .description-text {
+        font-size: 14px;
+    }
+    .shirt-caption {
+        position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -180% );
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 46px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px){
+    .shirt-headline{
+        font-size: 18px;
+    }
+    .shirt-size-text {
+        font-size: 14px;
+    }
+    .shirt-text-text {
+        font-size: 14px;
+    }
+    .shirt-picture-name {
+        font-size: 14px;
+    }
+    .shirt-button {
+        width: 100%;
+        font-size: 14px;
+    }
+    .shirt-text-container{
+        width: 200px;
+    }
+    .shirt-image {
+        display: block;
+    width: 300px;
+    height: 450px;
+    object-fit: contain;  
+    }
+    .shirt-description-headline {
+        font-size: 14px;
+    }
+    }

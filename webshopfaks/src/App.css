@@ -1,0 +1,9 @@
+:root {
+  --toastify-text-color-error: #495E57;
+  --toastify-color-error: #F5F7F8;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #F5F7F8;
+}
