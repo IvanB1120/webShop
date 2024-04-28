@@ -89,7 +89,7 @@
     justify-content: center;
     align-items: center;
     background-color: #495E57;
-    color: #F4CE14;
+    color: #e1e3e6;
     font-size: 24px;
     cursor: pointer;
     font-family: 'Lato', sans-serif;
@@ -139,7 +139,7 @@
 }
 
 .cart-checkout-delete {
-    color: #F4CE14;
+    color: #e1e3e6;
     background-color: #495E57;
     font-size: 20px;
     font-weight: bold;
