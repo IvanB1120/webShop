@@ -151,20 +151,28 @@
 
 
 @media only screen and (min-width: 1px) and (max-width: 576px){
-    .nav-button{
-        display: block;
+    .link-container{
+        width: 150px;
         height: 30px;
-        align-items: center;
-        justify-content: center;
     }
-    .nav-text {
+    .link-container1{
+        width: 150px;
+        height: 30px;
+    }
+    .nav-link {
+        font-size: 12px;
+    }
+    .nav-login-button {
         display: none;
     }
-    nav {
-        height: auto;
+    .nav-login-button-home {
+        display: none;
     }
-    .logo {
-        height: 50px;
+    .home-page {
+        width: 100%;
+        margin-left: 0%;
+        padding-right: 5%;
+        padding-left: 5%;
     }
     }
 

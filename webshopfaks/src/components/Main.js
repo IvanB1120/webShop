@@ -28,7 +28,7 @@ const Main = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 3000,
     nextArrow: <CustomNextArrow />,
     prevArrow: <CustomPrevArrow />,
@@ -38,11 +38,15 @@ const Main = () => {
     <Slider {...settings}>
       <div className="full-screen-image">
         <img src={mainImageThree} alt="Full-Screen-image" />
+        <Link to="/shirtMenu">
         <button className='main-button'>Explore T-shirts</button>
+        </Link>
       </div>
       <div className="full-screen-image">
         <img src={mainImageTwo} alt="Full Screen" />
+        <Link to="/hoodieMenu">
         <button className='main-button'>Explore Hoodies</button>
+        </Link>
       </div>
       </Slider>
   )

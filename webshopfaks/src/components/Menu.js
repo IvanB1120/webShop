@@ -27,17 +27,17 @@ const Menu = () => {
   return (
     <div>
         {showMenu &&(
-        <div class="outer-menu">
+        <div className="outer-menu">
         <input
           className="checkbox-toggle"
           type="checkbox"
           checked={isChecked}
           onChange={handleToggle}
         />
-  <div class="hamburger">
+  <div className="hamburger">
     <div></div>
   </div>
-  <div class="menu">
+  <div className="menu">
     <div>
       <div>
         <ul>
